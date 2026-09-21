@@ -40,11 +40,6 @@ and your failure to tell them apart **is** the finding.
 - [Ideas for new features](#ideas-for-new-features)
 - [Non-goals](#non-goals)
 
-**Writing about this project:** [`docs/blog.md`](docs/blog.md) is a full technical write-up
-(the finding, the architecture, the decisions that make it trustworthy, and the local-runtime
-bugs it surfaced). [`docs/launch-copy.md`](docs/launch-copy.md) holds the X thread and LinkedIn
-post.
-
 ---
 
 ## The finding

@@ -10,6 +10,11 @@ coin.
 
 The result is genuinely surprising precisely because the two models are so often identical —
 and your failure to tell them apart **is** the finding.
+
+<img width="1846" height="1167" alt="Screenshot at Sep 21 14-09-28" src="https://github.com/user-attachments/assets/2a50b7b4-8ee8-48d2-8634-c4cd63445eaf" />
+<img width="1845" height="1166" alt="Screenshot at Sep 21 14-10-08" src="https://github.com/user-attachments/assets/f750cc1a-dda5-47c6-9419-abc3424de1e5" />
+<img width="1858" height="1509" alt="screencapture-localhost-5173-2026-09-21-14_10_35" src="https://github.com/user-attachments/assets/bc729046-8352-4509-89e0-cebbcf6e5f25" />
+
 ---
 
 ## Table of contents

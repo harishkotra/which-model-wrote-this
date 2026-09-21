@@ -1,0 +1,15 @@
+{
+  "name": "which-model-wrote-this",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n server,web -c magenta,cyan \"pnpm -F server dev\" \"pnpm -F web dev\"",
+    "build": "pnpm -F web build",
+    "typecheck": "pnpm -F server typecheck && pnpm -F web typecheck",
+    "verify": "pnpm -F server verify"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

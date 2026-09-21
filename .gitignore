@@ -1,0 +1,93 @@
+# ---------------------------------------------------------------------------
+# Which Model Wrote This? — nothing below belongs in the repository.
+# Everything here is either generated, machine-specific, or a secret.
+# ---------------------------------------------------------------------------
+
+# Dependencies
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+.yarn/
+yarn-error.log*
+npm-debug.log*
+lerna-debug.log*
+
+# Build output
+dist/
+dist-ssr/
+build/
+out/
+*.tsbuildinfo
+web/tsconfig.tsbuildinfo
+server/tsconfig.tsbuildinfo
+.vite/
+web/.vite/
+.turbo/
+.esbuild/
+
+# ---------------------------------------------------------------------------
+# Runtime data. The quiz log, per-quiz audit exports and screenshots are
+# produced by *running* the app, not by writing it. `data/.gitkeep` is the only
+# file in that directory that is tracked.
+# ---------------------------------------------------------------------------
+data/*.json
+data/*.jsonl
+data/shots/
+!data/.gitkeep
+
+# ---------------------------------------------------------------------------
+# Secrets. Never commit an API key. The app takes keys from the Settings UI at
+# runtime and keeps them in localStorage; the verifier reads them from the
+# environment. No key is hardcoded anywhere in this repo.
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Logs
+logs/
+*.log
+
+# Test / coverage / tooling output
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+.playwright/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.\#*
+\#*\#
+
+# Operating system cruft
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Misc caches
+.cache/
+.parcel-cache/
+tmp/
+temp/
+
+docs/
